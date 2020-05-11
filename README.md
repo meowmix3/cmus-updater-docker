@@ -5,7 +5,7 @@ Periodically I will tag or add music to my music folder and I'll want to clear a
 I run:
 
 ```
-00 */6 * * * docker exec -it cmus-updater /update.sh
+00 */6 * * * docker exec -t cmus-updater /update.sh
 ```
 
 ...in my crontab to keep it updated.
